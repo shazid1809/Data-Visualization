@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Visualizations</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="scripts/lineChart.js" defer></script>
+    <script src="scripts/barChart.js" defer></script>
+    <script src="scripts/heatmap.js" defer></script>
+    <script src="scripts/pieChart.js" defer></script>
+    <script src="scripts/scatterPlot.js" defer></script>
+    <script src="scripts/stackedBarChart.js" defer></script>
+    <script src="scripts/histogram.js" defer></script>
+    <script src="scripts/areaChart.js" defer></script>
+
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Data Visualization</h1>
+      <p>Explore the weather forecast with insightful charts</p>
+    </header>
+    <main>
+      <section id="lineChart" class="chart-section">
+        <h2>Daily High and Low Temperatures</h2>
+        <svg id="lineChartSvg" width="800" height="400"></svg>
+      </section>
+      <section id="barChart" class="chart-section">
+        <h2>Daily Precipitation Probability</h2>
+        <svg id="barChartSvg" width="800" height="400"></svg>
+      </section>
+      <section id="heatmap" class="chart-section">
+        <h2>Temperature Variations Heatmap</h2>
+        <svg id="heatmapSvg" width="800" height="400"></svg>
+      </section>
+      <section id="pieChart" class="chart-section">
+        <h2>Weather Condition Distribution</h2>
+        <svg id="pieChartSvg" width="800" height="400"></svg>
+      </section>
+      <section id="scatterPlot" class="chart-section">
+        <h2>Precipitation vs. High Temperature</h2>
+        <svg id="scatterPlotSvg" width="800" height="400"></svg>
+      </section>
+      <section id="stackedBarChart" class="chart-section">
+        <h2>High and Low Temperatures Comparison</h2>
+        <svg id="stackedBarChartSvg" width="800" height="400"></svg>
+      </section>
+      <section id="histogram" class="chart-section">
+        <h2>Frequency of Temperature Ranges</h2>
+        <svg id="histogramSvg" width="800" height="400"></svg>
+      </section>
+      <section id="areaChart" class="chart-section">
+        <h2>Multi-Series Area Chart</h2>
+        <svg id="areaChartSvg" width="800" height="400"></svg>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Data Source: Weather Forecast | Created by Md Shazidul Mazid,
+        Manichandan Gujja, Bibek Karki & Raghav Nagpal
+      </p>
+    </footer>
+  </body>
+</html>
